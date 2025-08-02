@@ -1,0 +1,449 @@
+*{
+    block-size: auto;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.clear-fix{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    /* background-color: red; */
+    
+}
+#nav{
+    position: fixed;
+   top: 0;
+   left: 0;
+   right:0;
+   width: 100%;
+  z-index: 1000;
+  background-color: #FFFFFF;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+    width: 50%;
+}
+.menu{
+    width: 60%;
+    float: right;
+    margin-top: 10px;
+
+}
+.menu li{
+    display: inline;
+    margin: 0 10px;
+    padding: 0 20px;
+}
+.menu li a{
+    color: #000000;
+ font-size: 20px;
+}
+
+
+.home{
+    width: 100%;
+    height: 100dvh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+}
+
+.layer{ 
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    padding-top: 200px;
+} 
+.home-content{
+    width: 47%;
+    text-align: center;
+    margin: auto;
+}
+.home-content p{
+    font-family: "Alegreya Sans";
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 45px;
+    color: #ffff;
+    margin: 0 0 5px;
+}
+.home-content h1{
+    font-family: "Alegreya", serif;
+    font-size:76px;
+    line-height:92px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0 0 18px;
+}
+.button button{
+    border: none;
+    background-color: #8E7754;
+    border-radius: 5px;
+    padding: 15px 28px ;
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+    line-height: 31.62px;
+    margin: 30px 0px 0px 12px ;
+}
+.button .transparent{
+ border: 1px solid white;
+ background-color: transparent;
+}
+.second{
+    width: 100%;
+    height: 100dvh;
+    margin: auto;
+}
+.second-container{ 
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}  
+.image-left{
+    width: 50%;
+    height: 75%;
+    background-image: url(../images/alexandru-stavrica.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 6% ;
+    float: left;
+}
+.contant-right{
+    width: 50%;
+    float: left;
+    margin-top: 10% ;
+    padding-left: 4%;
+}
+.contant-right h2{
+    width:100%;
+    font-family: "Alegreya", serif;
+    font-size:32px;
+    line-height:44px;
+    font-weight: 400;
+    color: #303030;
+    margin: 0 0 25px;
+
+}
+.contant-right p{
+    width: 100%;
+    font-family: "Alegreya sans";
+    font-size:17px;
+    line-height:32.6px;
+    font-weight: 400;
+    color: #686868;
+    padding-bottom: 50px;
+}
+.contant-right .icon{
+   width:10% ;
+   
+}
+.list span{
+    width: 50%;
+    font-family: "Alegreya sans";
+    font-size:17px;
+    line-height:31.6px;
+    font-weight: 400;
+    color: #686868;
+    padding-left: 3%;
+}
+.third{
+   width: 100%;
+    height: 100dvh;
+    margin: auto;
+     background-color: #6868681b; 
+}
+ .third-container{ 
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}  
+.contant-left{
+    width: 50%;
+    float: left;
+    margin-top: 6%;
+    padding-right: 4%;
+    padding-top: 10%;
+    
+}
+.contant-left h2{
+    width:100%;
+    font-family: "Alegreya", serif;
+    font-size:32px;
+    line-height:44px;
+    font-weight: 400;
+    color: #303030;
+    margin: 0 0 25px;
+
+}
+.contant-left p{
+    width: 100%;
+    font-family: "Alegreya sans";
+    font-size:17px;
+    line-height:32.6px;
+    font-weight: 400px;
+    color: #686868;
+    padding-bottom: 50px;
+}
+.image-right{
+    width: 50%;
+    height: 75%;
+    margin-top: 6% ;
+    background-image: url(../images/full-2.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    
+}
+.fourth{
+   width: 100%;
+    height: 100dvh;
+    margin: auto; 
+}
+.fourth-container{ 
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.content{
+    text-align: center;
+    padding-top: 5%;
+}
+.content h3{
+    width:100%;
+    font-family: "Alegreya";
+    font-size:30px;
+    line-height:42px;
+    font-weight: 400px;
+    color: #303030;
+}
+.content p{
+    width:100%;
+    font-family: "Alegreya", serif;
+    font-size:17px;
+    line-height:42px;
+    font-weight: 400px;
+    color: #686868;
+}
+.child h4{
+    width:100%;
+    font-family: "Alegreya", serif;
+    font-size:17px;
+    line-height:42px;
+    font-weight: 400px;
+    color: #303030;
+}
+.child p{
+    width:100%;
+    font-family: "Alegreya", serif;
+    font-size:17px;
+    line-height:31px;
+    font-weight: 400px;
+    color: #686868;
+}
+.parent{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.child{
+    text-align: center;
+    float: left;;
+    width: 33.33%;  
+}
+.child img{
+    width: 95%;
+    
+    
+}
+.five{
+  width: 100%;
+    height: 100dvh;
+    margin: auto;  
+    background-color: #6868681b; 
+}
+.five-container{ 
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.contant-left2{
+    width: 50%;
+    float: left;
+    margin-top: 6%;
+    padding-right: 4%;
+    
+}
+.contant-left2 h2{
+    width:100%;
+    font-family: "Alegreya", serif;
+    font-size:32px;
+    line-height:44px;
+    font-weight: 400;
+    color: #303030;
+    margin: 0 0 25px;
+
+}
+.contant-left2 p{
+    width: 100%;
+    font-family: "Alegreya sans";
+    font-size:17px;
+    line-height:32.6px;
+    font-weight: 400px;
+    color: #686868;
+    padding-bottom: 50px;
+}
+.contant-left2 .icon1{
+   width:10% ;
+}
+ .list2 span{ 
+    width: 50%;
+    font-family: "Alegreya sans";
+    font-size:17px;
+    line-height:31.6px;
+    font-weight: 400;
+    color: #686868;
+    padding-left: 3%;
+} 
+ .map iframe{
+    width: 50%;
+    height: 600px;            /*  !important ; */
+    float: left;
+    margin-top: 6%;
+}  
+
+
+#about_us_div{
+    background-color: #403D38;
+    width: 100%;
+    height: 60dvh;
+    margin: auto;
+}
+.about_us_perant{
+    float: left;
+    width: 25%;
+    margin-block: 70px;
+    padding: 10px;
+    
+
+}
+.about_us_child p {
+    color: #969696;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    line-height: 29.79px;
+    font-weight: 400;
+    padding-block: 20px;
+}
+.about_us_perant h4 {
+    color:#FFFFFF;
+    font-family: "Alegreya", serif;
+    font-size: 18px;
+    line-height: 24.84px;
+    font-weight: 400;
+}
+.about_us_perant ul{
+    color: #969696;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+.custom-line{
+  border: 0;
+  height: 0.5px;
+  background: #45423D;
+  border-radius: 3px;
+  width: 60%;         
+}
+.about_chi span{
+    color: #969696;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+.about_us_perant li{
+   padding: 0px 0px 5px 0px; 
+}
+.about_chi .ic{
+    width: 35px;
+    margin-inline:10px ;
+    margin-bottom: 10px;
+}
+.icon_about_us_perant{
+    width: 20px;
+    margin-top: 5px;
+
+}
+.about_chi a{
+    color:#969696;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 16px;
+    line-height: 31.62px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+#endsectiondiv{
+    background-color:#353330;
+    width: 100%;
+   height: 50dvh;
+}
+.end_img img{
+    width: 100%;
+}
+.end_divcont p{
+    color:#777777;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 15px;
+    line-height: 27.9px;
+    font-weight: 400;
+    padding-block: 20px;
+    padding-left: 10px;
+   
+}
+.end_img{
+    width: 30%;
+    margin: auto;
+    padding-block: 40px;
+   
+}
+.img_end_adiv{
+    width:55px;
+    height: 55px;
+   margin: auto;
+   
+}
+.end_divcont{
+    text-align: center;
+    position: relative;
+   
+}
+.a_enddiv{
+    margin-inline: 200px;
+    margin-top: 10px;
+   
+}
